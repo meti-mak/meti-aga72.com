@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>metimak72.com</title>
+    <link rel="stylesheet" href="bootstrap-5/css/bootstrap.min.css">
+    <script src="bootstrap-5/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    
+    <img class="logo-pic" src="assets/logo3.png" alt="" srcset="">
+    
+    <nav id="desktop-nav">
+      <div class="logo">
+            meti<span>-aga</span></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="toggle-btn" id="btnm">
+        <span>Dark</span>
+        <img src="/assets/moon3.png">
+      </div>
+    </nav>
+
+    <!-- to javascript menu  -->
+
+    <nav id="hamburger-nav">
+      <div class="logo">Meti <span>-aga</span></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <div class="toggle-btn" id="btnm">
+            <span>Dark</span>
+            <img src="/assets/moon3.png">
+          </div>
+        </div>
+      </div>
+    </nav>
+
+         <!-- my socail link  -->
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img class="pro-pic" src="./assets/profile-pic.jpeg" alt="meti-aga profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1-1">Hello, I'm</p>
+        <h1 class="title-1">meti-aga</h1>
+        <h5>( Metasebia Merkin Chirbo )</h5>
+        <h6 class="fblink"><a href="https://facebook.com/profile.php?id=61551597590852?Sub_confirmation=1'" target="_blank" >www.metimak72.com</a></h6>
+        <p class="section__text__p2">software engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/meti-mak-cv.pdf')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img 
+          src="./assets/youtube.png"
+          alt="My youtube account"
+          class="icon"
+          onclick="location.href='https://www.youtube.com/channel/UCauVBBjfTOK72fprKkKZkkA?Sub_confirmation=1'"
+          />
+
+          <img
+          src="./assets/fb.png"
+          alt="My Facebook profile"
+          class="icon"
+          onclick="location.href='https://facebook.com/profile.php?id=61551597590852?Sub_confirmation=1'"
+          />
+
+          <img
+          src="assets/instagram1.png"
+          alt="My instagram profile"
+          class="icon"
+          onclick="location.href='https://instagram.com/metasebiamerkin' "
+          />
+          <img
+          src="./assets/Reddit-transformed.png"
+          alt="My Reddit account"
+          class="icon"
+          onclick="location.href='https://www.reddit.com/user/Scary_Tree2692'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/meti-mak'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- my eduction form  -->
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img class="about-pic"
+            src="./assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Begenner <br />Full stack Developer <br> and
+              <br>App Developer
+            </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />Software Engineering <br>
+              In Jigjiga University
+            <br>2020-2025 G.C</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi, I'm a passionate and highly skilled software engineer,
+               web developer, and app developer. With a strong background in computer science
+                and programming, I thrive on tackling complex challenges and 
+                finding innovative solutions to create user-friendly, high-performance software
+                 and web applications.
+                      <br>
+                      I am always eager to learn and stay updated with the latest technologies
+                       and industry trends to continuously improve my skills and stay on the cutting edge of software development.
+                        I am a team player who values collaboration and open communication, and I thrive in fast-paced,
+                         dynamic environments where I can contribute my expertise to create outstanding digital experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+       <!-- my "experience -->
+
+    <section id="experience">
+      <p class="section__text__p1-1">Explore My</p>
+      <h1 class="title-1">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Web Design</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Application Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+             
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kotlin</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React Native</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <!-- My projects  -->
+    <section id="projects">
+      <p class="section__text__p1-1">Browse My Recent</p>
+      <h1 class="title-1">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+         
+         <!-- 1st--pro -my  -->
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/pharmacy-anim.gif"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+
+            <div class="pro-1-title">
+              <h4>Title</h4> 
+              <p>Siiqo-phramacy</p>
+             
+            </div> 
+
+
+
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/meti-mak/pharmacy-web-fornt-end'"
+                target="_blank"  >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/meti-mak/Unity-pharmacy-project'"
+                target="_blank"  >
+                Live Demo
+              </button>
+            </div>
+          </div>
+                 <!-- 2nd--pro -my  -->
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/phramacy-anima.gif"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="pro-1-title">
+
+              <h4>Title</h4>
+              <p>Unity-phramacy</p>
+            </div> 
+
+
+
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/meti-mak/Unity-pharmacy-project' "
+                target="_blank" >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/meti-mak/Unity-pharmacy-project'"
+                target="_blank" >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <!-- 3rd--pro -my  -->
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="pro-1-title">
+              <h4>Title</h4> 
+              <p>News-website</p>
+             
+            </div> 
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+                target="_blank" >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              target="_blank" >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+     <!-- Carousel -->
+<div id="demo" class="carousel slide" data-ride="flase">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button  type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" style="text-align: end; margin-right: 70px;"><h5>Back</h5></button>
+    <button  type="button" data-bs-target="#demo" data-bs-slide-to="1" style="text-align: end; margin-left: 40px;"><h5>Set Message</h5></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner" >
+     <!-- contact me -->
+    <div class="carousel-item active" > 
+        <section id="contact">
+            <p class="section__text__p1-1">Get in Touch</p>
+            <h1 class="title-1">Contact Me</h1>
+            <div class="contact-info-upper-container">
+              <div class="contact-info-container">
+                <img
+                  src="./assets/email.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:gasufull@gmail.com">gasufull@gmail.com</a></p>
+              </div>
+              <div class="contact-info-container">
+                <img
+                  src="./assets/fb.png"
+                  alt="icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://www.facebook.com/profile.php?id=61551597590852">FB</a></p>
+              </div>
+            </div>
+          </section>
+        </div>
+            <!-- comment  -->
+    <div class="carousel-item" id="demo">
+    
+        <div class="comment-box" id="comment-box">
+            <h2>Comments</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+              <input type="hidden" name="access_key" value="b66b7922-2d65-4357-890a-98b6c23206b3">
+              <input type="text" name="Full-name" placeholder="FULL NAME">
+              <input type="email" name="email" placeholder="Your Email">
+              <input type="No" name="Phone number" placeholder="phone no..">
+              <textarea name="comment" placeholder="Type your Comment..."></textarea>
+                <div class="btn-container-1">
+      
+                  <button class="btn-1 btn-color-2">Submit Comment</button>
+      
+                </div>
+                </form>
+           </div>
+    </div>
+  </div>
+</div>
+
+   
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Meti aga . All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
